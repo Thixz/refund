@@ -5,11 +5,11 @@ import { ManagerRoutes } from "./ManagerRoutes";
 import { Loading } from "../components/Loading";
 import type { JSX } from "react";
 
-const isLoading = true;
+const isLoading = false;
 
 const session = {
   user: {
-    role: "manager",
+    role: "",
   },
 };
 
